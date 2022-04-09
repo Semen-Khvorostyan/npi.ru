@@ -1,0 +1,83 @@
+#covidInfo
+{
+    background-image: url(../img/history1.jpg);
+    text-shadow: 3px 3px 3px #000;
+    background-size: 1350px;
+}
+
+#covidInfo .textDiv
+{
+    font-size: 50px;
+}
+.texti
+{
+    font-size: 25px;
+    font-family: Trebuchet Ms;
+
+
+}
+.texti p
+{
+
+    margin-right: 40px;
+}
+.imgi
+{
+    float: left;
+}
+.imgi img
+{
+    width: 250px;
+    height: 350px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.texti2
+{
+    font-size: 25px;
+    font-family: Trebuchet Ms;
+
+
+}
+.texti2 p
+{
+
+    margin-left: 40px;
+}
+.imgi2
+{
+    float: right;
+}
+.imgi2 img
+{
+    width: 350px;
+    height: 350px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.monotext
+{
+    font-size: 25px;
+    font-family: Trebuchet Ms;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.scale {
+    transition: 0.5s; /* Время эффекта */
+}
+.scale:focus {
+ /* Увеличиваем масштаб */
+    transform: translate(500px,-300px) scale(3);
+}
+.scale2 {
+    transition: 0.5s; /* Время эффекта */
+}
+.scale2:focus {
+ /* Увеличиваем масштаб */
+    transform: translate(-500px,-300px) scale(2);
+}
+

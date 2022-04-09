@@ -1,0 +1,63 @@
+.image
+{
+    float: left; /*Задаем обтекание*/
+    width: 25%;
+}
+.textt
+{
+    width: 75%;
+    float: right; /*Задаем обтекание*/
+}
+.textt p{
+    position: relative;
+top: 35%;
+transform: translateY(-40%); 
+    margin-right: 20px;
+    margin-left: 40px;
+}
+.image img
+{
+    width: 300px;
+    height: 450px;
+    margin-left: 40px;
+}
+.element-animation div
+{
+    height: 500px;
+    font-size: 30px;
+    font-family: Trebuchet Ms;
+}
+#Prof
+{
+    color: rgb(255, 255, 255);
+    background-image: url(../img/rect.jpg);
+    background-size: 1500px;
+    height: 500px;
+    text-shadow: 3px 3px 3px #000;
+    margin-top: 20px;
+
+
+}
+#Prof .formaZ
+{
+    font-size: 40px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:60%;
+
+}
+#Prof .textDiv
+{
+    font-size: 40px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:40%;
+    width: 900px;
+}
+#Prof h1
+{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}

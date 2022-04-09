@@ -1,0 +1,40 @@
+#Prof1
+{
+    color: rgb(255, 255, 255);
+    background-image: url(../img/nauka2.jpg);
+    background-size: 1500px;
+    height: 500px;
+    text-shadow: 3px 3px 3px #000;
+    margin-top: 20px;
+
+
+}
+#Prof1 .formaZ
+{
+    font-size: 20px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:60%;
+
+}
+#Prof1 .textDiv
+{
+    font-size: 30px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:40%;
+    width: 900px;
+}
+#Prof1 h1
+{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#information1
+{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

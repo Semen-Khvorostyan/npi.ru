@@ -1,0 +1,53 @@
+#Prof
+{
+    color: rgb(255, 255, 255);
+    background-image: url(../img/profprack.jpg);
+    background-size: 1500px;
+    height: 700px;
+    text-shadow: 3px 3px 3px #000;
+    margin-top: 20px;
+
+
+}
+#Prof .formaZ
+{
+    font-size: 20px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:60%;
+
+}
+#Prof .textDiv
+{
+    font-size: 30px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:40%;
+    width: 900px;
+}
+#Prof h1
+{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#list {
+    font-size: 30px;
+    font-family: Trebuchet Ms;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#list ol
+{
+    list-style-type: none; 
+}
+#list ol li :hover
+{
+    color: rgb(255, 255, 255);
+    background-color: #7BA7AB;
+    text-shadow: 1px 1px 1px #000;
+    list-style-type: 0;
+}

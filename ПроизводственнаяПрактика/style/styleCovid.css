@@ -1,0 +1,94 @@
+#covidInfo
+{
+    color: rgb(255, 255, 255);
+    background-image: url(../img/covid.jpg);
+    background-size: 1500px;
+    height: 500px;
+    text-shadow: 3px 3px 3px #000;
+    margin-top: 20px;
+
+
+}
+#covidInfo .formaZ
+{
+    font-size: 20px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:60%;
+
+}
+#covidInfo .textDiv
+{
+    font-size: 30px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:40%;
+    width: 900px;
+}
+#covidInfo h1
+{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#d img{
+    width: 250px;
+    height: 300px;
+}
+.zagolovok
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 35px;
+    font-family: Trebuchet Ms;
+    color: rgb(32, 25, 54);
+}
+#d
+{
+    margin-right: 60px;
+    margin-left: 40px;
+    float: left; /*Задаем обтекание*/
+}
+#information1
+{
+    font-size: 20px;
+    font-family: Trebuchet Ms;
+    margin-right: 40px;
+}
+#information2
+{
+    font-size: 20px;
+    font-family: Trebuchet Ms;
+    margin-right: 40px;
+}
+span
+{
+    background-color: #e9da0c;
+}
+#information1 ul {
+    list-style-type: none;
+}
+
+#information1 li:before {
+    content: "\2B24" ;
+    color: #e9da0c;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#information2 ul {
+    list-style-type: none;
+}
+
+#information2 li:before {
+    content: "\2B24" ;
+    color: #e9da0c;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.corona
+{
+    height: 400px;
+}

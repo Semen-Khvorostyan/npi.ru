@@ -1,0 +1,327 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    /* ШАпка сайта */
+header
+{
+    width: 100%;
+    height: 105px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+section
+{
+    background-color: white;
+}
+
+
+.logo
+{
+    height: 50px;
+    float: left; /*Задаем обтекание*/
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+    color: white;
+    width: 15%; /*Фиксируем ширину блока*/
+    
+}
+.logo img
+{
+    margin-left: 40px;
+}
+.menu
+{
+    height: 50px;
+    float: right; /*Задаем обтекание*/
+    line-height: 0px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 25px;
+    font-family: Trebuchet Ms;
+    color: black;
+    width: 65%; /*Фиксируем ширину блока*/
+    text-align: center; /*Центрируем текст по горизонтали*/
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.menu2
+{
+    height: 50px;
+    float: right; /*Задаем обтекание*/
+    line-height: 0px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 25px;
+    font-family: Trebuchet Ms;
+    color: black;
+    width: 65%; /*Фиксируем ширину блока*/
+    text-align: center; /*Центрируем текст по горизонтали*/
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.menu ul {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    margin-left: 20px;
+}
+.menu ul li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+.menu ul li :hover
+{
+    color: white;
+    background-color: #7BA7AB;
+    list-style-type: 0;
+}
+.menu2 ul {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    margin-left: 20px;
+}
+.menu2 ul li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+.menu2 ul li :hover
+{
+    color: white;
+    background-color: #7BA7AB;
+    list-style-type: 0;
+}
+.poisk
+{
+    height: 100px;
+    float: left; /*Задаем обтекание*/
+    line-height: 0px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 20px;
+    font-family: Trebuchet Ms;
+    color: white;
+    width: 20%; /*Фиксируем ширину блока*/
+    text-align: center; /*Центрируем текст по горизонтали*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    position: relative;
+    width: 300px;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poisk input {
+    width: 200px;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    background: white;
+    color: #9E9C9C;
+
+}
+.poisk button {
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+
+}
+.poisk button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: white;
+}
+
+/* Конец шапки */
+/* Начало тела*/
+section #Infomain
+{
+    color: rgb(255, 255, 255);
+    background-image: url(../img/main.jpg);
+    background-size: 1350px;
+    height: 500px;
+    text-shadow: 3px 3px 3px #000;
+    margin-top: 20px;
+    
+}
+section #Infomain .formaZ
+{
+    font-size: 20px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:60%;
+
+}
+section #Infomain .textDiv
+{
+    font-size: 50px;
+    font-family: Trebuchet Ms;
+    display: grid;
+    align-items: end;
+    height:40%;
+    width: 900px;
+}
+section #Infomain h1
+{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.zagolovok
+{
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.photo_and_text1
+{
+    height: 300px;
+
+}
+.photo_and_text2
+{
+    height: 300px;
+
+}
+
+#p 
+{
+    width: 60%;
+    float: left; /*Задаем обтекание*/
+    font-size: 25px;
+    font-family: Trebuchet Ms;
+    color: black;
+
+}
+#p p {
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+#p2
+{
+    width: 60%;
+    float: right; /*Задаем обтекание*/
+    font-size: 25px;
+    font-family: Trebuchet Ms;
+    color: black;
+
+}
+#p2 p {
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.element-animation {
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .element-animation.element-show {
+    opacity: 1;
+    transition: all 1.2s;
+    transform: translateY(0%);
+  }
+#img 
+{
+    width: 40%;
+    float: left; /*Задаем обтекание*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img2
+{
+    width: 40%;
+    float: right; /*Задаем обтекание*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#img img 
+{
+    height: 300px;
+    width: 500px;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+#img2 img 
+{
+    height: 300px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p span
+{
+    background-color: #e9da0c;
+}
+
+/*Конец тела*/
+/*Начало подвала */
+footer
+{
+    color: white;
+    background-color: rgb(80, 80, 80);
+}
+.info
+{
+    height: 65px;
+    width: 81%;
+    float: left; /*Задаем обтекание*/
+    background-color: rgb(80, 80, 80);
+}
+.info p
+{
+    margin-left: 40px;
+}
+.social
+{
+    height: 65px;
+    width: 19%;
+    float: right; /*Задаем обтекание*/
+    background-color: rgb(80, 80, 80);
+
+}
+.social img
+{
+    width: 40px;
+    height: 40px;
+    
+}
+a
+{
+    text-decoration: none;
+    color: #666;
+}
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+     font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+
+/* Конец подвала*/
